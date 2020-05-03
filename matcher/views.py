@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def group_list(request):
+    return render(request, 'matcher/group_list.html', {})
